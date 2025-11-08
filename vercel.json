@@ -10,7 +10,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "https://your.vercel.app",
+        "APP_URL": "https://proyecto-test-1-backend-kq95u6iei-ferdev2s-projects.vercel.app",
         "APP_KEY": "base64:ck19m4iPPdahRISZolJPNaRGAhUP0maBXT9ugCK7Tko=",
         "DB_CONNECTION": "mysql",
         "DB_HOST": "mysql.railway.internal",
