@@ -1,12 +1,12 @@
 {
     "version": 2,
+    "framework": null,
     "routes": [
         {
             "src": "/(.*)",
             "dest": "text-1/public/index.php"
         }
     ],
-    "ignoreCommand": "npm run build",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
