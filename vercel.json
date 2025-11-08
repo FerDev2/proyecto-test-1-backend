@@ -3,9 +3,10 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "public/index.php"
+            "dest": "text-1/public/index.php"
         }
     ],
+    "ignoreCommand": "npm run build",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
