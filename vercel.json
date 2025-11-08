@@ -1,26 +1,30 @@
 {
     "version": 2,
     "framework": null,
+    "functions": {
+        "api/index.php": {
+            "runtime": "vercel-php@0.6.0"
+        }
+    },
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "test-1/public/index.php"
+            "dest": "/api/index.php"
         }
     ],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
-        "APP_URL": "https://proyecto-test-1-backend-kq95u6iei-ferdev2s-projects.vercel.app",
+        "APP_DEBUG": "true",
+        "APP_URL": "https://proyecto-test-1-backend-dc4wo94mv-ferdev2s-projects.vercel.app",
         "APP_KEY": "base64:ck19m4iPPdahRISZolJPNaRGAhUP0maBXT9ugCK7Tko=",
-        "DB_CONNECTION": "mysql",
-        "DB_HOST": "mysql.railway.internal",
-        "DB_PORT": "3306",
-        "DB_DATABASE": "railway",
-        "DB_USERNAME": "root",
-        "DB_PASSWORD": "SImBUkvDdBzBfwtTaKnzWUsIqmKEjPRQ",
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
-        "SESSION_DRIVER": "cookie",
-        "VIEW_COMPILED_PATH": "/tmp"
+        "SESSION_DRIVER": "cookie"
     }
 }
