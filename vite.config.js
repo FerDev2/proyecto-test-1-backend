@@ -12,7 +12,7 @@ export default defineConfig({
         tailwindcss(),
     ],
     build: {
-        outDir: 'public/build', // <- importante
+        outDir: 'dist', // <- Vercel busca dist
         emptyOutDir: true
     }
 });
