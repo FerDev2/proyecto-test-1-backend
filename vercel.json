@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "builds": [
-        {
-            "src": "public/index.php",
-            "use": "@vercel/php"
-        }
-    ],
     "routes": [
         {
             "src": "/(.*)",
@@ -18,11 +12,11 @@
         "APP_URL": "https://your.vercel.app",
         "APP_KEY": "tu_app_key_de_env",
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "host_de_railway",
+        "DB_HOST": "mysql.railway.internal",
         "DB_PORT": "3306",
-        "DB_DATABASE": "nombre_db",
-        "DB_USERNAME": "usuario_db",
-        "DB_PASSWORD": "contraseña_db",
+        "DB_DATABASE": "railway",
+        "DB_USERNAME": "root",
+        "DB_PASSWORD": "SImBUkvDdBzBfwtTaKnzWUsIqmKEjPRQ",
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
