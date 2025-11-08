@@ -6,7 +6,6 @@
             "dest": "public/index.php"
         }
     ],
-    "ignoreCommand": "npm run build",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
