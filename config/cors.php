@@ -7,7 +7,7 @@ return [
     'allowed_methods' => ['*'],
 
     // ⚠️ Cambia esto a tu dominio frontend (React)
-    'allowed_origins' => ['http://localhost:3000'],
+    'allowed_origins' => ['https://proyecto-test-1-ok5r.vercel.app'],
 
     'allowed_origins_patterns' => [],
 
