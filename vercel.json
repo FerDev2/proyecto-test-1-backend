@@ -4,7 +4,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "text-1/public/index.php"
+            "dest": "test-1/public/index.php"
         }
     ],
     "env": {
